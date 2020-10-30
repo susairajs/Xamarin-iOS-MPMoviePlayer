@@ -26,8 +26,6 @@ namespace XamariniOSMPMoviePlayer
 			MPMoviePlayerController player = new MPMoviePlayerController(NSUrl.FromFilename(videoFile));
 			View.AddSubview(player.View);
 			player.SetFullscreen(true, true);
-
-			//Video Play Fuction
 			player.Play();
 		}
 
